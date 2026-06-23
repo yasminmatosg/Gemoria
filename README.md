@@ -1,4 +1,4 @@
-<img width="3168" height="1344" alt="Gemini_Generated_Image_fjtvc8fjtvc8fjtv" src="https://github.com/user-attachments/assets/aaeb4d3a-8e86-44b5-8213-c665fc536f59" />
+<img width="1927" height="816" src="https://github.com/user-attachments/assets/7e8ba0af-cb76-44c9-9423-c761fd1fe0c7" />
 
 
 > 🎓 **Projeto acadêmico** desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
