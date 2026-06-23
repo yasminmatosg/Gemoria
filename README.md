@@ -1,8 +1,12 @@
 # GEMORIA - O Resgate do Cristal 🗡️💎
 
-Projeto final desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
+<img width="1742" height="600" alt="capa gemoria" src="https://github.com/user-attachments/assets/a2b5aa7d-15be-4f79-a01c-a86535a84ca7" />
 
-Trata-se de um RPG de terminal (*Dungeon Crawler*) construído 100% em linguagem C pura (programação estruturada). O sistema foca em alocação dinâmica de memória, otimização de recursos e manipulação direta de ponteiros, rodando com extrema fluidez e eficiência.
+> 🎓 **Projeto acadêmico** desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
+> 
+> 🕹️ Trata-se de um RPG de terminal, construído 100% em **linguagem C pura** (programação estruturada). O sistema foca em alocação dinâmica de memória, otimização de recursos e manipulação direta de ponteiros, rodando com extrema fluidez e eficiência.
+
+---
 
 ## 🔗 Arquitetura e Estruturas de Dados
 
@@ -20,7 +24,6 @@ A arquitetura do jogo foi desenhada para justificar a aplicação prática de se
 O projeto não possui dependências externas além das bibliotecas padrão do C (`stdio.h`, `stdlib.h`, `string.h`).
 
 1. Clone este repositório:
-   ```bash
    git clone https://github.com/yasminmatosg/Gemoria.git
 
 2. Navegue até a pasta do projeto e compile os arquivos integrados:
