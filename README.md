@@ -21,7 +21,7 @@ O projeto não possui dependências externas além das bibliotecas padrão do C 
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/o-resgate-do-cristal.git](https://github.com/SEU_USUARIO/o-resgate-do-cristal.git)
+   git clone https://github.com/yasminmatosg/Gemoria.git
 
 2. Navegue até a pasta do projeto e compile os arquivos integrados:
    ```bash
