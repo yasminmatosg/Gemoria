@@ -24,13 +24,13 @@ A arquitetura do jogo foi desenhada para justificar a aplicação prática de se
 O projeto não possui dependências externas além das bibliotecas padrão do C (`stdio.h`, `stdlib.h`, `string.h`).
 
 1. Clone este repositório:
-   git clone https://github.com/yasminmatosg/Gemoria.git
+ https://github.com/yasminmatosg/Gemoria.git
 
-2. Navegue até a pasta do projeto e compile os arquivos integrados:
+3. Navegue até a pasta do projeto e compile os arquivos integrados:
    ```bash
    gcc main.c exploracao_mapa.c combate_inventario.c -o resgate_cristal
 
-3. Execute o jogo:
+4. Execute o jogo:
    ```bash
    ./resgate_cristal
 
