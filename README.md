@@ -6,8 +6,6 @@
 > 
 > 🕹️ Trata-se de um RPG de terminal, construído 100% em **linguagem C pura** (programação estruturada). O sistema foca em alocação dinâmica de memória, otimização de recursos e manipulação direta de ponteiros, rodando com extrema fluidez e eficiência.
 
----
-
 ## 🔗 Arquitetura e Estruturas de Dados
 
 A arquitetura do jogo foi desenhada para justificar a aplicação prática de seis estruturas de dados fundamentais:
@@ -35,7 +33,7 @@ O projeto não possui dependências externas além das bibliotecas padrão do C 
    ./resgate_cristal
 
 ## 𐀪𐀪 Autoras
-> Yasmin Matos - Módulo de Combate e Inventário
+> Yasmin Matos · Módulo de Combate e Inventário
 >
-> Maria Luisa - Módulo de Exploração, Mapa e Navegação
+> Maria Luisa · Módulo de Exploração, Mapa e Navegação
 
