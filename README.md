@@ -1,6 +1,5 @@
-# GEMORIA - O Resgate do Cristal 🗡️💎
+<img width="3168" height="1344" alt="Gemini_Generated_Image_fjtvc8fjtvc8fjtv" src="https://github.com/user-attachments/assets/aaeb4d3a-8e86-44b5-8213-c665fc536f59" />
 
-<img width="1742" height="600" alt="capa gemoria" src="https://github.com/user-attachments/assets/a2b5aa7d-15be-4f79-a01c-a86535a84ca7" />
 
 > 🎓 **Projeto acadêmico** desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
 > 
