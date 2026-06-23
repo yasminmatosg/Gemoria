@@ -35,6 +35,7 @@ O projeto não possui dependências externas além das bibliotecas padrão do C 
    ./resgate_cristal
 
 ## 𐀪𐀪 Autoras
-Yasmin Matos - Módulo de Combate e Inventário
+> Yasmin Matos - Módulo de Combate e Inventário
+>
+> Maria Luisa - Módulo de Exploração, Mapa e Navegação
 
-Maria Luisa - Módulo de Exploração, Mapa e Navegação
