@@ -26,11 +26,11 @@ O projeto não possui dependências externas além das bibliotecas padrão do C 
 
 3. Navegue até a pasta do projeto e compile os arquivos integrados:
    ```bash
-   gcc main.c exploracao_mapa.c combate_inventario.c -o resgate_cristal
+   gcc main.c exploracao_mapa.c combate_inventario.c -o gemoria
 
 4. Execute o jogo:
    ```bash
-   ./resgate_cristal
+   ./gemoria
 
 ## 𐀪𐀪 Autoras
 > Yasmin Matos · Módulo de Combate e Inventário
