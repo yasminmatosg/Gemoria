@@ -1,9 +1,13 @@
+![C](https://img.shields.io/badge/c-%23E01B8C.svg?style=for-the-badge&logo=c&logoColor=white)
+![GCC](https://img.shields.io/badge/gcc-%236A1B9A.svg?style=for-the-badge&logo=gnu&logoColor=white)
+
 <img width="1927" height="816" src="https://github.com/user-attachments/assets/7e8ba0af-cb76-44c9-9423-c761fd1fe0c7" />
 
 
 > 🎓 **Projeto acadêmico** desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
 > 
 > 🕹️ Trata-se de um RPG de terminal, construído 100% em **linguagem C pura** (programação estruturada). O sistema foca em alocação dinâmica de memória, otimização de recursos e manipulação direta de ponteiros, rodando com extrema fluidez e eficiência.
+
 
 ## 🔗 Arquitetura e Estruturas de Dados
 
@@ -32,7 +36,7 @@ O projeto não possui dependências externas além das bibliotecas padrão do C 
    ./gemoria
 
 ## 𐀪𐀪 Autoras
-> Yasmin Matos · Módulo de Combate e Inventário
+>[Maria Luiza Vicente da Silva Lacerda](https://github.com/Ma-Luh)  · Módulo de Exploração, Mapa e Navegação
 >
-> Maria Luisa · Módulo de Exploração, Mapa e Navegação
+>[Yasmin Gomes de Matos](https://github.com/yasminmatosg) · Módulo de Combate e Inventário
 
