@@ -3,7 +3,6 @@
 
 <img width="1927" height="816" src="https://github.com/user-attachments/assets/7e8ba0af-cb76-44c9-9423-c761fd1fe0c7" />
 
-
 > 🎓 **Projeto acadêmico** desenvolvido para a disciplina de Estrutura de Dados do curso de Sistemas de Informação (3º semestre) do Centro Universitário Unieuro.
 > 
 > 🕹️ Trata-se de um RPG de terminal, construído 100% em **linguagem C pura** (programação estruturada). O sistema foca em alocação dinâmica de memória, otimização de recursos e manipulação direta de ponteiros, rodando com extrema fluidez e eficiência.
