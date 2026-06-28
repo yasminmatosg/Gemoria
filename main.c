@@ -136,6 +136,11 @@ int main() {
         printf(COR_CIANO "=====================================================\n" COR_RESET);
         scanf("%d", &opcao);
 
+        // Pausa a tela para a jogador(a) conseguir ler o que aconteceu
+        if (iniciado) {
+            printf("\n");
+        }
+
         switch (opcao) {
 
             case 1:
@@ -150,8 +155,13 @@ int main() {
                 if (!hordaVazia(horda)) {
                     
                     Inimigo *inimigo = desenfileirarInimigo(horda);
-                    (void)inimigo;
-
+                    inserirCombatente(combatentes, inimigo->nome, "Se prepare!", inimigo->vida, inimigo->dano, 1);
+                    
+                    printf(COR_VERMELHA "\n=====================================================\n" COR_RESET);
+                    printf(COR_VERMELHA "| " COR_RESET "%-15s entrou na Arena de Combate!    " COR_VERMELHA "|\n" COR_RESET, inimigo->nome);
+                    printf(COR_VERMELHA "=====================================================\n" COR_RESET);    
+                
+                    free(inimigo);
                 } else {
 
                     printf(COR_VERMELHA "=====================================================\n" COR_RESET);
