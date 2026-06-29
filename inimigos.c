@@ -12,17 +12,20 @@ Horda* criarHorda() {
     
     Horda *horda = (Horda *)malloc(sizeof(Horda));
 
+    if (horda == NULL) return NULL; // Correção: Tratamento de erro de memória
+
     horda -> comeco = NULL;
     horda -> fim = NULL;
 
     return horda;
-
 }
 
 void enfileirarInimigo(Horda *horda, char *nome, int vida, int dano) {
 
     // O 'malloc', constrói um espaço temporário na  memória RAM só para guardar a ficha do monstro.
     NoHorda *novoNo = (NoHorda *)malloc(sizeof(NoHorda)); //
+
+    if (novoNo == NULL) return; // Correção: Tratamento de erro de memória
 
     strcpy(novoNo -> inimigo.nome, nome); // Chama a si mesmo
 
@@ -54,6 +57,8 @@ Inimigo* desenfileirarInimigo(Horda *horda) {
 
     noRemovido = horda -> comeco;
     inimigoMorto = malloc(sizeof *inimigoMorto);
+
+    if (inimigoMorto == NULL) return NULL; // Tratamento de erro de memória
 
     strcpy(inimigoMorto -> nome, noRemovido -> inimigo.nome);
     inimigoMorto -> vida = noRemovido -> inimigo.vida;

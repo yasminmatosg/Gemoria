@@ -134,7 +134,11 @@ int main() {
         printf(COR_CIANO "| 5. Derrotar Inimigo Atual                         |\n" COR_RESET);
         printf(COR_CIANO "| 6. Sair                                           |\n" COR_RESET);
         printf(COR_CIANO "=====================================================\n" COR_RESET);
-        scanf("%d", &opcao);
+        
+        if (scanf("%d", &opcao) != 1) { // Tratamento para evitar loop infinito com caracteres
+            while (getchar() != '\n');  // Limpa o buffer do teclado
+            opcao = -1;                 // Força cair no 'default' e exibir "OPÇÃO INVÁLIDA"
+        }
 
         // Pausa a tela para a jogador(a) conseguir ler o que aconteceu
         if (iniciado) {
@@ -175,24 +179,26 @@ int main() {
                 break;
 
             case 5:
-                if (!combatentesVazios(combatentes) && !hordaVazia(horda)) {
+            if (!combatentesVazios(combatentes)) { 
+                
+                char nomeInimigo[50];
+                
+                if (combatentes->inicio->proximo != combatentes->inicio) {
+                        
+                        strcpy(nomeInimigo, combatentes->inicio->proximo->nome);
 
-                    char nomeInimigo[50];
-
-                    strcpy(nomeInimigo, combatentes->inicio->nome);
-
-                    if (removerCombatente(combatentes, nomeInimigo)) {
-
-                        recompensas(nomeInimigo, mochila);
+                        if (removerCombatente(combatentes, nomeInimigo)) {
+                            recompensas(nomeInimigo, mochila);
+                        }
 
                     } else {
-
+                        // Se só existir a Guerreira girando na lista
                         printf(COR_VERMELHA "=====================================================\n" COR_RESET);
                         printf(COR_VERMELHA "|           NENHUM INIMIGO PARA DERROTAR!           |\n" COR_RESET);
                         printf(COR_VERMELHA "=====================================================\n" COR_RESET);
                     }
                 }
-                    break;
+                break;
 
                 case 6:
                 iniciado = 0;
@@ -203,7 +209,7 @@ int main() {
 
                 default:
                 printf(COR_VERMELHA "=====================================================\n" COR_RESET);
-                printf(COR_VERMELHA "|                 OPÇÃO INVÁLIDA                   |\n" COR_RESET);
+                printf(COR_VERMELHA "|                 OPCAO INVALIDA                   |\n" COR_RESET);
                 printf(COR_VERMELHA "=====================================================\n" COR_RESET);
         }
     }

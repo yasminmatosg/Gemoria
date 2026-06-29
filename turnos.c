@@ -12,12 +12,11 @@ Combatentes* iniciarCombatentes() {
 
     //O 'malloc' foi utilizado para alocar espaço na memória RAM, para controlar a roda de combatentes
     Combatentes *combatentes = (Combatentes *)malloc(sizeof(Combatentes));
+    if (combatentes == NULL) return NULL; // Correção: Tratamento de erro de memória
     
     combatentes -> inicio = NULL;
-    combatentes -> tamanho = 0;
-
-    return combatentes;
 }
+
 // Aloca os combatentes no círculo de combate
 void inserirCombatente(Combatentes *combatentes, char *nome, char *frase, int vida, int dano, int nivel) {
 
@@ -161,7 +160,7 @@ void exibirCombatentes(Combatentes *combatentes) {
 
         do {
 
-            printf(COR_VERDE "| " COR_RESET "%-12s - Vida: %-3d - Dano: %-3d - Nivel: %-4d" COR_VERDE "|\n" COR_RESET, atual -> nome, atual -> vida, atual -> dano, atual -> nivel, atual -> frase);
+            printf(COR_VERDE "| " COR_RESET "%-12s - Vida: %-3d - Dano: %-3d - Nivel: %-4d" COR_VERDE "|\n" COR_RESET, atual -> nome, atual -> vida, atual -> dano, atual -> nivel);
             atual = atual -> proximo;
 
         } while (atual != combatentes -> inicio);
